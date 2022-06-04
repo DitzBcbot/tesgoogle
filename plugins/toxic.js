@@ -7,7 +7,7 @@ ${['jan toxic lah bng 🗿',
   mentions: m.mentionedJid
 } : {})
 
-handler.customPrefix = /ajg|anjg|anjing|babi|bgst|bngst|bangsat|asu|ngentot|kontol|kntol|kntl|memek|memeq|mmek|mmk|jancok|jncok|jnck|pantek|pntk|pntek|goblok|gblok|gblk|pepek|bangke|tolol/i
+handler.customPrefix = /ajg|anjg|anjing|babi|bgst|bngst|bangsat|ngentot|kontol|kntol|kntl|memek|memeq|mmek|mmk|jancok|jncok|jnck|pantek|pntk|pntek|goblok|gblok|gblk|pepek|bangke|tolol/i
 handler.command = new RegExp
 
 export default handler
