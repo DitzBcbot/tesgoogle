@@ -3,7 +3,7 @@ let handler = async (m, { conn, text }) => {
     let url = yh[Math.floor(Math.random() * yh.length)]
     conn.sendButton(m.chat, 'Ada apa manggil manggil saya 🤖', 'ʙᴀɴᴛᴜ ʀᴀᴍᴇɪɴ ɢᴄ :\nhttps://chat.whatsapp.com/Dxtz9xAxial3A43AJetabY\nhttps://chat.whatsapp.com/Dxtz9xAxial3A43AJetabY\nhttps://chat.whatsapp.com/Dxtz9xAxial3A43AJetabY ', url, [['MENU', '#menu']], m)
   }
-  handler.customPrefix = /bot|ragil/i
+  handler.customPrefix = /ragil/i
 handler.command = new RegExp
   export default handler
   
